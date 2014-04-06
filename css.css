@@ -1,0 +1,23 @@
+svg .box-A {
+    color: rgba(0,0,0,0.3);
+    fill: none;
+    stroke: rgba(0,0,0,0.3);
+}
+svg .box-B {
+    color: black;
+    fill: none;
+    stroke: black;
+    stroke-width: 2;
+}
+.axis line, .axis path {
+    fill: none;
+    stroke: grey;
+    shape-rendering: crispEdges;
+}
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+.y.axis path {
+    display: none;
+}
